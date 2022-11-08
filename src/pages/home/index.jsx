@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Banner, ProductCard } from "@components";
 import api from "../../servises/api";
-import Item from "antd/lib/list/Item";
-import DetailProduct from "../detail-product";
 
 const HomePage = () => {
   const [produk, setProduk] = useState([]);
